@@ -2,7 +2,7 @@
 [![GitHub package.json version](https://img.shields.io/github/package-json/v/Nereare/ubs.todo)](https://github.com/Nereare/ubs.todo/releases)
 [![GitHub](https://img.shields.io/github/license/Nereare/ubs.todo)](LICENSE.md)
 
-A fork of `todo.txt` aimed at primary care (_ESF_) task listing.
+A fork of [`todo.txt`](http://todotxt.org/) aimed at primary care (_ESF_) task listing.
 
 The first and most important rule of `ubs.todo`:
 
