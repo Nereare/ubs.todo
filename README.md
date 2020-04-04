@@ -45,7 +45,7 @@ Here are the rest:
 
 ## Incomplete Tasks: 4 Format Rules
 
-The beauty of `ubs.todo` is that it's completely unstructured; the metadata you can attach to each task are only limited by your imagination. To get started, use special notation to indicate task context (e.g. `@meeting` ), fields (e.g. `+mentalHealth` ) and priority (e.g. `(A)` ).
+The beauty of `ubs.todo` is that it's completely unstructured; the metadata you can attach to each task are only limited by your imagination. To get started, use special notation to indicate task context (_e.g._ `@meeting` ), fields (_e.g._ `+mentalHealth` ) and priority (_e.g._ `(A)` ).
 
 A `ubs.todo` file might look like the following:
 
@@ -197,7 +197,7 @@ With the completed date (required), if you've used the prepended date (optional)
 
 Tool developers may define additional formatting rules for extra metadata.
 
-Developers should use the format `key:value` to define additional metadata (e.g. `due:2010-01-02` as a due date).
+Developers should use the format `key:value` to define additional metadata (_e.g._ `due:2010-01-02` as a due date).
 
 Both `key` and `value` must consist of non-whitespace characters, which are not colons. Only one colon separates the `key` and `value`.
 
