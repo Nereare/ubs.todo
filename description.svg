@@ -1,37 +1,100 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 632.2 281">
-    <style>
-        .st0{font-family:Courier;font-size:12px;}
-        .st1{fill:none;stroke:#000000;stroke-miterlimit:10;}
-        .st2{font-family:Arial;font-size:10px;}
-    </style>
-    <text class="st0" transform="translate(4.024 172.96)">
-        x (A) 2016-05-20 2016-04-30 measure space for +chapelShelving @chapel due:2016-05-30
-    </text>
-    <path d="M15.2 159v-6H.5v6m36 0v-6H21.8v6m96.5 0v-6H47.5v6m149.3 0v-6H126v6m483.7.2V153H206v6.1m238.7 22.8v7.2H335V182m274.7-.1v7.2H509V182m-7.5-.1v7.2h-49.1V182" class="st1"/>
-    <text class="st2" transform="rotate(-45 161.175 55.627)">
-        Optional — Marks completion
-    </text>
-    <text class="st2" transform="rotate(-45 171.8 29.976)">
-        Optional -- Marks priority
-    </text>
-    <text class="st2" transform="rotate(-45 198.684 -34.92)">
-        Optional -- Completion Date
-    </text>
-    <text transform="rotate(-45 237.935 -129.68)">
-        <tspan x="0" y="0" class="st2">Optional -- Creation Date</tspan>
-        <tspan x="0" y="12" class="st2">(must be specified if completion date is)</tspan>
-    </text>
-    <text transform="rotate(-45 352.18 -405.478)">
-        <tspan x="0" y="0" class="st2">Description; tags (optional)</tspan>
-        <tspan x="0" y="12" class="st2">can be placed anywhere in here</tspan>
-    </text>
-    <text class="st2" transform="rotate(45 -60.77 576.533)">
-        Project Tag
-    </text>
-    <text class="st2" transform="rotate(45 -17.238 681.627)">
-        Context tag
-    </text>
-    <text class="st2" transform="rotate(45 23.978 781.127)">
-        Special key/value tag
-    </text>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="2048px"
+	 height="842.046px" viewBox="0 0 2048 842.046" enable-background="new 0 0 2048 842.046" xml:space="preserve">
+<g id="Entry_Parts_Backup" display="none">
+	<g display="inline">
+		<path fill="#1D1D1B" d="M2036,324.909v74H565.5v-74H2036 M2039,321.909H562.5v80H2039V321.909L2039,321.909z"/>
+	</g>
+	<g display="inline">
+		<path fill="#1D1D1B" d="M37,324.909v74H10.5v-74H37 M40,321.909H7.5v80H40V321.909L40,321.909z"/>
+	</g>
+	<g display="inline">
+		<path fill="#1D1D1B" d="M109.25,324.909v74h-51v-74H109.25 M112.25,321.909h-57v80h57V321.909L112.25,321.909z"/>
+	</g>
+	<g display="inline">
+		<path fill="#1D1D1B" d="M331.75,324.909v74h-201.5v-74H331.75 M334.75,321.909h-207.5v80h207.5V321.909L334.75,321.909z"/>
+	</g>
+	<g display="inline">
+		<path fill="#1D1D1B" d="M550,324.909v74H348.5v-74H550 M553,321.909H345.5v80H553V321.909L553,321.909z"/>
+	</g>
+</g>
+<g id="Task_Subparts_Backup" display="none">
+	<g>
+		<path display="inline" fill="#1D1D1B" d="M1105.5,324.909v474h-540v-474H1105.5 M1108.5,321.909h-546v480h546V321.909
+			L1108.5,321.909z"/>
+	</g>
+	<rect x="671" y="340.159" fill="#1D1D1B" width="440.661" height="50.75"/>
+	<g display="inline">
+		<path fill="#1D1D1B" d="M1105.5,324.909v85h-420v-85H1105.5 M1108.5,321.909h-426v91h426V321.909L1108.5,321.909z"/>
+	</g>
+	<g display="inline">
+		<path fill="#1D1D1B" d="M664.5,324.909v85h-99v-85H664.5 M667.5,321.909h-105v91h105V321.909L667.5,321.909z"/>
+	</g>
+	<g display="inline">
+		<path fill="#1D1D1B" d="M1304.333,324.909v85H1117v-85H1304.333 M1307.333,321.909H1114v91h193.333V321.909L1307.333,321.909z"/>
+	</g>
+	<g display="inline">
+		<path fill="#1D1D1B" d="M1487.5,324.909v85h-173.833v-85H1487.5 M1490.5,321.909h-179.833v91H1490.5V321.909L1490.5,321.909z"/>
+	</g>
+	<g display="inline">
+		<path fill="#1D1D1B" d="M1701.5,324.909v85h-204v-85H1701.5 M1704.5,321.909h-210v91h210V321.909L1704.5,321.909z"/>
+	</g>
+	<g display="inline">
+		<path fill="#1D1D1B" d="M2036,324.909v85h-323v-85H2036 M2039,321.909h-329v91h329V321.909L2039,321.909z"/>
+	</g>
+	<rect x="517.25" y="262.574" display="inline" fill="#1D1D1B" width="158.5" height="128.335"/>
+	<rect x="671" y="262.574" display="inline" fill="#1D1D1B" width="440.661" height="128.335"/>
+	<rect x="1093.917" y="262.574" display="inline" fill="#1D1D1B" width="227.077" height="128.335"/>
+	<rect x="1278.25" y="262.574" display="inline" fill="#1D1D1B" width="227.077" height="128.335"/>
+	<rect x="1482.923" y="262.574" display="inline" fill="#1D1D1B" width="227.077" height="128.335"/>
+	<rect x="1704.5" y="262.574" display="inline" fill="#1D1D1B" width="337.822" height="128.335"/>
+</g>
+<g id="Example">
+	<text transform="matrix(1 0 0 1 14.0034 377.6377)"><tspan x="0" y="0" fill="#706F6F" font-family="'RobotoMono-Regular'" font-size="33">x</tspan><tspan x="19.803" y="0" font-family="'RobotoMono-Regular'" font-size="33"> </tspan><tspan x="39.606" y="0" fill="#F9B233" font-family="'RobotoMono-Regular'" font-size="33">(A)</tspan><tspan x="99.016" y="0" font-family="'RobotoMono-Regular'" font-size="33"> </tspan><tspan x="118.819" y="0" fill="#E6332A" font-family="'RobotoMono-Regular'" font-size="33">2012-06-02 2012-05-23</tspan><tspan x="534.751" y="0" font-family="'RobotoMono-Regular'" font-size="33"> </tspan><tspan x="554.555" y="0" font-family="'RobotoMono-Bold'" font-size="33">Mary:</tspan><tspan x="653.571" y="0" font-family="'RobotoMono-Regular'" font-size="33"> schedule reevaluation </tspan><tspan x="1109.045" y="0" fill="#006633" font-family="'RobotoMono-Regular'" font-size="33">+schedule @meeting</tspan><tspan x="1465.502" y="0" font-family="'RobotoMono-Regular'" font-size="33"> </tspan><tspan x="1485.306" y="0" fill="#E6007E" font-family="'RobotoMono-Regular'" font-size="33">=02.07.152</tspan><tspan x="1683.338" y="0" font-family="'RobotoMono-Regular'" font-size="33"> </tspan><tspan x="1703.141" y="0" fill="#312783" font-family="'RobotoMono-Regular'" font-size="33">#123123123123123</tspan></text>
+</g>
+<g id="Entry_Parts">
+	<polygon fill="#1D1D1B" points="10.5,346.409 10.5,324.909 37,324.909 37,346.409 40,346.409 40,321.909 7.5,321.909 7.5,346.409 	
+		"/>
+	<polygon fill="#1D1D1B" points="58.25,346.409 58.25,324.909 109.25,324.909 109.25,346.409 112.25,346.409 112.25,321.909 
+		55.25,321.909 55.25,346.409 	"/>
+	<polygon fill="#1D1D1B" points="130.25,346.409 130.25,324.909 331.75,324.909 331.75,346.409 334.75,346.409 334.75,321.909 
+		127.25,321.909 127.25,346.409 	"/>
+	<polygon fill="#1D1D1B" points="348.5,346.409 348.5,324.909 550,324.909 550,346.409 553,346.409 553,321.909 345.5,321.909 
+		345.5,346.409 	"/>
+	<polygon fill="#1D1D1B" points="565.5,346.409 565.5,324.909 2036,324.909 2036,346.409 2039,346.409 2039,321.909 562.5,321.909 
+		562.5,346.409 	"/>
+	<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 23.75 290.3755)"><tspan x="0" y="0" stroke="#878787" stroke-miterlimit="10" font-family="'Roboto-Thin'" font-size="24">Optional</tspan><tspan x="85.617" y="0" stroke="#878787" font-family="'Roboto-Thin'" font-size="24"> </tspan><tspan x="91.359" y="0" font-family="'Roboto-Light'" font-size="24">— Marks Completion</tspan></text>
+	<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 83.75 290.3755)"><tspan x="0" y="0" stroke="#878787" stroke-miterlimit="10" font-family="'Roboto-Thin'" font-size="24">Optional</tspan><tspan x="85.617" y="0" stroke="#878787" font-family="'Roboto-Thin'" font-size="24"> </tspan><tspan x="91.359" y="0" font-family="'Roboto-Light'" font-size="24">— Priority</tspan></text>
+	<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 231 290.3755)"><tspan x="0" y="0" stroke="#878787" stroke-miterlimit="10" font-family="'Roboto-Thin'" font-size="24">Required*</tspan><tspan x="102.305" y="0" stroke="#878787" font-family="'Roboto-Thin'" font-size="24"> </tspan><tspan x="108.046" y="0" font-family="'Roboto-Light'" font-size="24">— Completion Date</tspan></text>
+	<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 449.25 290.3755)"><tspan x="0" y="0" stroke="#878787" stroke-miterlimit="10" font-family="'Roboto-Thin'" font-size="24">Optional</tspan><tspan x="85.617" y="0" stroke="#878787" font-family="'Roboto-Thin'" font-size="24"> </tspan><tspan x="91.359" y="0" font-family="'Roboto-Light'" font-size="24">— Creation Date</tspan></text>
+	<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 1300.75 290.3755)"><tspan x="0" y="0" stroke="#878787" stroke-miterlimit="10" font-family="'Roboto-Thin'" font-size="24">Required</tspan><tspan x="92.273" y="0" stroke="#878787" font-family="'Roboto-Thin'" font-size="24"> </tspan><tspan x="98.016" y="0" font-family="'Roboto-Light'" font-size="24">— Task (metadata optional)</tspan></text>
+</g>
+<g id="Task_Subparts">
+	<polygon fill="#1D1D1B" points="1105.5,640.456 1105.5,665.865 565.5,665.865 565.5,640.456 562.5,640.456 562.5,668.865 
+		1108.5,668.865 1108.5,640.456 	"/>
+	<polygon fill="#1D1D1B" points="664.5,390.909 664.5,409.909 565.5,409.909 565.5,390.909 562.5,390.909 562.5,412.909 
+		667.5,412.909 667.5,390.909 	"/>
+	<polygon fill="#1D1D1B" points="1105.5,390.909 1105.5,409.909 685.5,409.909 685.5,390.909 682.5,390.909 682.5,412.909 
+		1108.5,412.909 1108.5,390.909 	"/>
+	<polygon fill="#1D1D1B" points="1304.333,390.909 1304.333,409.909 1117,409.909 1117,390.909 1114,390.909 1114,412.909 
+		1307.333,412.909 1307.333,390.909 	"/>
+	<polygon fill="#1D1D1B" points="1487.5,390.909 1487.5,409.909 1313.667,409.909 1313.667,390.909 1310.667,390.909 
+		1310.667,412.909 1490.5,412.909 1490.5,390.909 	"/>
+	<polygon fill="#1D1D1B" points="1701.5,390.909 1701.5,409.909 1497.5,409.909 1497.5,390.909 1494.5,390.909 1494.5,412.909 
+		1704.5,412.909 1704.5,390.909 	"/>
+	<polygon fill="#1D1D1B" points="2036,390.909 2036,409.909 1713,409.909 1713,390.909 1710,390.909 1710,412.909 2039,412.909 
+		2039,390.909 	"/>
+	<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 615 451.6514)"><tspan x="0" y="0" stroke="#878787" stroke-miterlimit="10" font-family="'Roboto-Thin'" font-size="24">Optional</tspan><tspan x="85.617" y="0" stroke="#878787" font-family="'Roboto-Thin'" font-size="24"> </tspan><tspan x="91.359" y="0" font-family="'Roboto-Light'" font-size="24">— Subject</tspan></text>
+	<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 895.5 451.6514)"><tspan x="0" y="0" stroke="#878787" stroke-miterlimit="10" font-family="'Roboto-Thin'" font-size="24">Required</tspan><tspan x="92.273" y="0" stroke="#878787" font-family="'Roboto-Thin'" font-size="24"> </tspan><tspan x="98.016" y="0" font-family="'Roboto-Light'" font-size="24">— Description</tspan></text>
+	<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 1210.666 451.6514)"><tspan x="0" y="0" stroke="#878787" stroke-miterlimit="10" font-family="'Roboto-Thin'" font-size="24">Optional</tspan><tspan x="85.617" y="-0.001" stroke="#878787" font-family="'Roboto-Thin'" font-size="24"> </tspan><tspan x="91.359" y="0" font-family="'Roboto-Light'" font-size="24">— Field</tspan></text>
+	<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 1400.584 451.6514)"><tspan x="0" y="0" stroke="#878787" stroke-miterlimit="10" font-family="'Roboto-Thin'" font-size="24">Optional</tspan><tspan x="85.617" y="-0.001" stroke="#878787" font-family="'Roboto-Thin'" font-size="24"> </tspan><tspan x="91.359" y="0" font-family="'Roboto-Light'" font-size="24">— Context</tspan></text>
+	<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 1599.5 451.6514)"><tspan x="0" y="0" stroke="#878787" stroke-miterlimit="10" font-family="'Roboto-Thin'" font-size="24">Optional</tspan><tspan x="85.617" y="-0.001" stroke="#878787" font-family="'Roboto-Thin'" font-size="24"> </tspan><tspan x="91.359" y="0" font-family="'Roboto-Light'" font-size="24">— Record</tspan></text>
+	<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 1874.5 451.6514)"><tspan x="0" y="0" stroke="#878787" stroke-miterlimit="10" font-family="'Roboto-Thin'" font-size="24">Optional</tspan><tspan x="85.617" y="-0.001" stroke="#878787" font-family="'Roboto-Thin'" font-size="24"> </tspan><tspan x="91.359" y="0" font-family="'Roboto-Light'" font-size="24">— ID</tspan></text>
+	<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 835.5 701.7422)"><tspan x="0" y="0" stroke="#878787" stroke-miterlimit="10" font-family="'Roboto-Thin'" font-size="24">Required**</tspan><tspan x="112.336" y="0" stroke="#878787" font-family="'Roboto-Thin'" font-size="24"> </tspan><tspan x="118.078" y="0" font-family="'Roboto-Light'" font-size="24">— Task</tspan></text>
+</g>
+<g id="Explanations">
+	<text transform="matrix(1 0 0 1 1507.1826 751.1357)"><tspan x="0" y="0" stroke="#878787" stroke-miterlimit="10" font-family="'Roboto-Thin'" font-size="24">*</tspan><tspan x="10.031" y="0" font-family="'Roboto-Thin'" font-size="24" letter-spacing="20">	</tspan><tspan x="36" y="0" font-family="'Roboto-Thin'" font-size="24">Required if task is completed</tspan><tspan x="0" y="28.8" stroke="#878787" stroke-miterlimit="10" font-family="'Roboto-Thin'" font-size="24">**</tspan><tspan x="20.063" y="28.8" font-family="'Roboto-Thin'" font-size="24" letter-spacing="10">	</tspan><tspan x="36" y="28.8" font-family="'Roboto-Thin'" font-size="24">Required at least a task description</tspan></text>
+</g>
 </svg>

@@ -1,155 +1,165 @@
-# todo.txt format 
-[![Gitter](https://img.shields.io/gitter/room/todotxt/todotxt.svg)](https://gitter.im/todotxt/todotxt)
+# `ubs.todo` format
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/Nereare/ubs.todo)](https://github.com/Nereare/ubs.todo/releases)
+[![GitHub](https://img.shields.io/github/license/Nereare/ubs.todo)](LICENSE.md)
 
-A complete primer on the whys and hows of todo.txt.
+A fork of `todo.txt` aimed at primary care (_ESF_) task listing.
 
-The first and most important rule of todo.txt:
+The first and most important rule of `ubs.todo`:
 
-> A single line in your todo.txt text file represents a single task.
-
+    A single line in your todo.txt text file represents a single task.
 
 ## Why plain text?
 
-Plain text is software and operating system agnostic. It's searchable, portable, lightweight, and easily manipulated. It's unstructured. It works when someone else's web server is down or your Outlook .PST file is corrupt. There's no exporting and importing, no databases or tags or flags or stars or prioritizing or _insert company name here_-induced rules on what you can and can't do with it.
+Plain text is software and operating system agnostic. It's searchable, portable, lightweight, and easily manipulated. It's unstructured. It works when someone else's web server is down or your Outlook `.PST` file is corrupt. There's no exporting and importing, no databases or tags or flags or stars or prioritizing or _insert-company-name-here_-induced rules on what you can and can't do with it.
 
+## The 3 axes of `ubs.todo`
 
-## The 3 axes of an effective todo list
+Using special notation in `ubs.todo`, you can create a list that's sliceable by 3 key axes:
 
-Using special notation in todo.txt, you can create a list that's sliceable by 3 key axes.
+### 1. Priority
 
+Your todo list should be able to tell you what's the next most important thing for you to get done - either by project, by context, or overall. You can optionally assign tasks a priority that'll bubble them up to the top of the list.
 
-### Priority
-Your todo list should be able to tell you what's the next most important thing for you to get done - either by project or by context or overall. You can optionally assign tasks a priority that'll bubble them up to the top of the list.
+### 2. Subject & Task
 
+Each task of a primary care professional usually regards a person - this is the subject. The subject is the object or the focus of a task which regards it.
 
-### Project
-The only way to move a big project forward is to tackle a small subtask associated with it. Your `todo.txt` should be able to list out all the tasks specific to a project.
+### 3. Metadata
 
-In order to move along a project like "Cleaning out the garage," my task list should give me the next logical action to take in order to move that project along. "Clean out the garage" isn't a good todo item; but "Call Goodwill to schedule pickup" in the "Clean out garage" project is.
+Each task can have some metadata regarding it, such as fields, contexts or subject informations.
 
+## `ubs.todo` format rules
 
-### Context
-[Getting Things Done] author David Allen suggests splitting up your task lists by context - ie, the place and situation where you'll work on the job. Messages that you need to send go in the `@email` context; calls to be made `@phone`, household projects `@home`.
+![Format Quick Reference Image](description.png)
 
-That way, when you've got a few minutes in the car with your cell phone, you can easily check your `@phone` tasks and make a call or two while you have the opportunity.
+Your `ubs.todo` is a plain text file. To take advantage of structured task metadata like priority, fields, contexts, creation, and completion dates, there are a few simple but flexible file format rules.
 
-This is all possible inside `todo.txt`.
-
-
-
-## `todo.txt` format rules
-
-![Format Quick Reference Image]
-
-Your `todo.txt` is a plain text file. To take advantage of structured task metadata like priority, projects, context, creation, and completion date, there are a few simple but flexible file format rules.
-
-Philosophically, the `todo.txt` file format has two goals:
+Philosophically, the `ubs.todo` file format has two goals:
 
 - The file contents should be human-readable without requiring any tools other than a plain text viewer or editor.
-- A user can manipulate the file contents in a plain text editor in sensible, expected ways. For example, a text editor that can sort lines alphabetically should be able to sort your task list in a meaningful way.
+- A user can manipulate the file contents in a plain text editor in a sensible, expected way. For example, a text editor that can sort lines alphabetically should be able to sort your task list in a meaningful way.
 
-These two goals are why, for example, lines start with priority and/or dates, so that they are easily sorted by priority or time, and completed items are marked with an `x`, which both sorts at the bottom of an alphabetical list and looks like a filled-in checkbox.
+These two goals are why, for example, lines start with priority and/or dates so that they are easily sorted by priority or time, and completed items are marked with an `x`, which both sorts at the bottom of an alphabetical list and looks like a filled-in checkbox.
 
-Here are the rest.
+Here are the rest:
 
+## Incomplete Tasks: 4 Format Rules
 
-## Incomplete Tasks: 3 Format Rules
+The beauty of `ubs.todo` is that it's completely unstructured; the metadata you can attach to each task are only limited by your imagination. To get started, use special notation to indicate task context (e.g. `@meeting` ), fields (e.g. `+mentalHealth` ) and priority (e.g. `(A)` ).
 
-The beauty of todo.txt is that it's completely unstructured; the fields you can attach to each task are only limited by your imagination. To get started, use special notation to indicate task context (e.g. `@phone` ), project (e.g. `+GarageSale` ) and priority (e.g. `(A)` ).
-
-A todo.txt file might look like the following:
-
-```
-(A) Thank Mom for the meatballs @phone 
-(B) Schedule Goodwill pickup +GarageSale @phone
-Post signs around the neighborhood +GarageSale
-@GroceryStore Eskimo pies
-```
-
-A search and filter for the `@phone` contextual items would output:
+A `ubs.todo` file might look like the following:
 
 ```
-(A) Thank Mom for the meatballs @phone 
-(B) Schedule Goodwill pickup +GarageSale @phone
+(A) Mary: schedule return @meeting
+(B) John: check labs +sexHealth @adm
+Women Group: confirm participants @meeting
+Print flyers +sexHealth
 ```
 
-To just see the `+GarageSale` project items would output:
+A search and filter for the `@meeting` contextual items would output:
 
 ```
-(B) Schedule Goodwill pickup +GarageSale @phone
-Post signs around the neighborhood +GarageSale
+(A) Mary: schedule return @meeting
+Women Group: confirm participants @meeting
 ```
 
-There are three formatting rules for current todo's.
+To just see the `+sexHealth` field items would output:
 
-### Rule 1: If priority exists, it ALWAYS appears first. 
+```
+(B) John: check labs +sexHealth @adm
+Print flyers +sexHealth
+```
+
+There are four formatting rules for current todo's.
+
+### Rule 1: If priority exists, it ALWAYS appears first.
 
 The priority is an uppercase character from A-Z enclosed in parentheses and followed by a space.
 
 This task has a priority:
 
 ```
-(A) Call Mom
+(A) Mary: schedule return @meeting
 ```
 
 These tasks do not have any priorities:
 
 ```
-Really gotta call Mom (A) @phone @someday
-(b) Get back to the boss
-(B)->Submit TPS report
+Women Group: confirm participants @meeting
+(b) Confirm vacation
+(B)->Submit notification
 ```
-
 
 ### Rule 2: A task's creation date may optionally appear directly after priority and a space.
 
-If there is no priority, the creation date appears first. If the creation date exists, it should be in the format `YYYY-MM-DD`.
+If there is no priority, the creation date appears first. If the creation date exists, it should be in [the format][ISO 8601] `YYYY-MM-DD`.
 
 These tasks have creation dates:
 
 ```
-2011-03-02 Document +TodoTxt task format
-(A) 2011-03-02 Call Mom
+2011-03-02 Document evolution +evol
+(A) 2011-05-13 Betany: calculate scores
 ```
 
 This task doesn't have a creation date:
 
 ```
-(A) Call Mom 2011-03-02
+(A) Bring snacks 2011-03-02
 ```
 
+### Rule 3: Fields, Contexts, Prontuaries and IDs must appear in the line AFTER priority, dates and subject/task.
 
-### Rule 3: Contexts and Projects may appear anywhere in the line _after_ priority/prepended date.
+- A *field* is preceded by a single space and an plus-sign (`+`).
+- A *context* is preceded by a single space and a at-sign (`@`).
+- A *record* is preceded by a single space and an equal-sign (`=`).
+- An *ID* is preceded by a single space and a hashtag (`#`).
+- A *field*, *context*, *record* or *ID* may contain any non-whitespace characters.
+  - We recommend that *ID*'s be number-only.
+  - We recommend that all metadata follow [lower camel case][camelCase] (a.k.a. dromedary case).
+- A *task* may have zero, one, or more than one *fields*, *contexts*, *record* and/or *ID* included in it.
 
-- A *context* is preceded by a single space and an at-sign (`@`).
-- A *project* is preceded by a single space and a plus-sign (`+`).
-- A *project* or *context* contains any non-whitespace character.
-- A *task* may have zero, one, or more than one *projects* and *contexts* included in it.
-
-For example, this task is part of the `+Family` and `+PeaceLoveAndHappiness` projects as well as the `@iphone` and `@phone` contexts:
+For example, this task is part of the `+mentalHealth` and `+schedule` fields as well as the `@meeting` context and the `=02.07.152` record:
 
 ```
-(A) Call Mom +Family +PeaceLoveAndHappiness @iphone @phone
+(A) Jane: schedule reevaluation +mentalHealth +schedule @meeting =02.07.152
 ```
 
 This task has no contexts in it:
 
 ```
-Email SoAndSo at soandso@example.com
+Email manager at manager@example.com
 ```
 
-This task has no projects in it:
+This task has no fields in it:
 
 ```
 Learn how to add 2+2
 ```
 
+### Rule 4: Subject, when present, must be followed by a comma and a single space.
 
+The task may have a subject (also usable as a title), which must be any number of words followed by a comma and a single space, with the taks after the single space.
+
+The subject is optional, but, when set, a task must follow. If no subject is set, the task is also optional.
+
+These are valid tasks:
+
+```
+(A) Jane: check labs @self
+(B) Mark: archive record
+(B) Fetch new materials +materials
+```
+
+These subjects are not valid:
+
+```
+(A) Mark: +labs
+(C) Lucy:study lesion
+```
 
 ## Complete Tasks: 2 Format Rules
 
 Two things indicate that a task has been completed.
-
 
 ### Rule 1: A completed task starts with an lowercase x character (`x`).
 
@@ -158,33 +168,30 @@ If a task starts with an `x` (case-sensitive and lowercase) followed directly by
 This is a complete task:
 
 ```
-x 2011-03-03 Call Mom
+x 2011-03-03 Email manager
 ```
 
-These are not complete tasks.
+These are **not** complete tasks.
 
 ```
 xylophone lesson
-X 2012-01-01 Make resolutions
-(A) x Find ticket prices
+X 2012-01-01 Study nem consensus
+(A) x Find new prescriptions
 ```
 
 We use a lowercase x so that completed tasks sort to the bottom of the task list using standard sort tools.
-
 
 ### Rule 2: The date of completion appears directly after the x, separated by a space.
 
 For example:
 
 ```
-x 2011-03-02 2011-03-01 Review Tim's pull request +TodoTxtTouch @github
+x 2011-03-02 2011-03-01 Schedule meeting +schedule @self
 ```
 
-If you’ve prepended the creation date to your task, on completion it will appear directly after the completion date. This is so your completed tasks sort by date using standard sort tools. Many Todo.txt clients discard priority on task completion. To preserve it, use the `key:value` format described below (e.g. `pri:A`)
+If you’ve prepended the creation date to your task, on completion it will appear directly after the completion date. This is so your completed tasks sort by date using standard sort tools.
 
-With the completed date (required), if you've used the prepended date (optional), you can calculate how many days it took to complete a task. 
-
-
+With the completed date (required), if you've used the prepended date (optional), you can calculate how many days it took to complete a task.
 
 ## Additional File Format Definitions
 
@@ -194,8 +201,13 @@ Developers should use the format `key:value` to define additional metadata (e.g.
 
 Both `key` and `value` must consist of non-whitespace characters, which are not colons. Only one colon separates the `key` and `value`.
 
+### RegEx Validation
 
+The followind regex rule (for JavaScript) can validate each line of a file. Analyzing each group can also show metadata, completion and subject.
 
+```regex
+/^(x )?(\([A-Z]\) )?( \d{4}\-\d{2}\-\d{2})?( \d{4}\-\d{2}\-\d{2})?((([^\+\@\=\#\:]+)\: )?[^\+\@\=\#\:\n]+)( [\+\@\=\#]([^\s]+))*$/gm
+```
 
-[Getting Things Done]: https://en.wikipedia.org/wiki/Getting_Things_Done
-[Format Quick Reference Image]: /description.png
+[camelCase]: https://en.wikipedia.org/wiki/Camel_case
+[ISO 8601]: https://xkcd.com/1179/

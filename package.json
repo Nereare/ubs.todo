@@ -1,0 +1,16 @@
+{
+  "name": "ubs.todo",
+  "description": "A fork of todo.txt aimed at primary care (ESF) task listing.",
+  "version": "0.1.0",
+  "maintainers": [
+    {
+      "name": "Igor Padoim",
+      "email": "igorpadoim@gmail.com",
+      "web": "https://nereare.github.io/"
+    }
+  ],
+  "bugs": {
+    "web": "https://github.com/ubs.todo/issues"
+  },
+  "license": "GPL-3.0-or-later"
+}
